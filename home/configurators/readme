@@ -1,0 +1,5 @@
+#configurators here 
+#as set_{configurator_name}.sh and read_{configurator_name}.sh
+#
+#templated code with param checker/ reader
+#user fills in rest

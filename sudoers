@@ -1,0 +1,4 @@
+#sudo cmds?
+[
+{cmd_full_path, run_as?}
+]

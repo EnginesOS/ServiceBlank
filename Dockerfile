@@ -1,19 +1,6 @@
 FROM {source_image?}
 #default if no {source_image?}
-FROM  engines/servicebase:$release
-#schedules?
- [
- { 
-  title:
-  timespec:
-  action: start|stop|pause|unpause|restart|actionator
-  actionator_params :
-  	{
-  	actionator_name:
-  	action_params: { }
-  	}
- }
- ] 
+
 #repos to add 
 [
 {repo_uri,repo_key_uri?}

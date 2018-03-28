@@ -1,4 +1,4 @@
-#sudo cmds?
-[
-{cmd_full_path, run_as?}
+#sudo entries for each sudo script
+#for each [sudo script
+$ervice_user ALL = (root) NOPASSWD: cmd_full_path
 ]

@@ -2,3 +2,5 @@
 #for each [sudo script
 $ervice_user ALL = (root) NOPASSWD: cmd_full_path
 ]
+
+must have a blank line at end
